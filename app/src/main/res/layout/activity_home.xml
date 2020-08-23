@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".launch.HomeActivity"
+        android:background="@layout/background_color">
+
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="32dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center">
+
+                        <ImageButton
+                                android:layout_width="90dp"
+                                android:layout_height="90dp"
+                                app:srcCompat="@drawable/house_list_icon"
+                                android:id="@+id/editHouseImageButton"
+                                android:onClick="myHouseList"
+                                android:scaleType="fitXY"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="100dp"
+                                android:layout_weight="0"/>
+
+                        <ImageButton
+                                android:layout_width="90dp"
+                                android:layout_height="90dp"
+                                app:srcCompat="@drawable/delete_icon"
+                                android:id="@+id/deleteImageButton"
+                                android:scaleType="fitXY"
+                                android:onClick="removeAll"
+                                android:layout_alignTop="@+id/imageButton"
+                                android:background="@android:color/transparent"
+                                android:layout_weight="0"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center">
+
+                        <ImageButton
+                                android:layout_width="90dp"
+                                android:layout_height="90dp"
+                                app:srcCompat="@drawable/add_house_icon"
+                                tools:layout_editor_absoluteY="45dp"
+                                tools:layout_editor_absoluteX="164dp"
+                                android:id="@+id/addHouseImageButton"
+                                android:scaleType="fitXY"
+                                android:onClick="showAddHouse"
+                                android:background="@android:color/transparent"
+                                android:layout_marginBottom="100dp"
+                                android:layout_weight="0"/>
+
+                        <ImageButton
+                                android:layout_width="90dp"
+                                android:layout_height="90dp"
+                                app:srcCompat="@drawable/update_profile_icon"
+                                android:id="@+id/imageButton"
+                                android:scaleType="fitXY"
+                                android:layout_alignParentBottom="true"
+                                android:background="@android:color/transparent"
+                                android:onClick="updateProfile"
+                                android:layout_weight="0"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

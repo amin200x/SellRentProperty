@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="app_name">خرید و اجاره ملک</string>
+
+    <string name="firstnameHint">نام</string>
+    <string name="lastnameHint">نام خانوادگی</string>
+    <string name="contactnumberHint">شماره تماس: 09121248546 </string>
+    <string name="passwordHint">رمز ورود</string>
+    <string name="repasswwordHint">تکرار رمز</string>
+    <string name="emailHint">آدرس ایمیل: example@gmail.com</string>
+    <string name="usernameHint">نام کاربری</string>
+
+    <string name="houseType">نوع</string>
+    <string name="province">استان</string>
+    <string name="county">شهرستان</string>
+    <string name="rentalCost">اجاره ماهانه</string>
+    <string name="age"> 1386 :سال ساخت</string>
+    <string name="address">ادامه آدرس</string>
+    <string name="description">توضیحات</string>
+    <string name="price">قیمت</string>
+    <string name="floorNumber">شماره طبقه</string>
+    <string name="houseSize">متراژ</string>
+    <string name="minSize">حداقل متراژ</string>
+    <string name="maxSize">حداکثر متراژ</string>
+    <string name="minPrice">حداقل قیمت</string>
+    <string name="maxPrice">حداکثر قیمت</string>
+    <string name="search">جستجو</string>
+    <string name="searchSetting">بیشتر</string>
+    <string name="accept">تایید</string>
+    <string name="city">شهر</string>
+    <string name="distance">حداکثر فاصله به کیلومتر</string>
+    <string name="update">بروز رسانی</string>
+
+
+    <string name="signin">ورود</string>
+    <string name="regHouseLocation">ثبت روی نقشه</string>
+    <string name="register">ثبت</string>
+    <string name="remove">خذف</string>
+    <string name="addLocImage">تصویر ملک</string>
+    <string name="gotosignup">ثبت نام</string>
+    <string name="addImage">تصویر اضافه کن</string>
+    <string name="onmap">آدرس روی نقشه</string>
+    <string name="saveImages">ذخیره نهایی</string>
+    <string name="addressOnMap">مکان روی نقشه</string>
+    <string name="title_activity_house_location">ملک روی نقشه</string>
+    <string name="imagesOfHouse">تصاویر ملک</string>
+    <string name="next">بعدی</string>
+    <string name="previous">قبلی</string>
+    <string name="title_activity_house_on_map">مکان ملک</string>
+    <string name="about">برنامه ای برای درخواست خرید، فروش، رهن و اجاره ملک.\n طراحی شده توسط ا.قدیمیان در سال 1398</string>
+    <string name="privacy">این برنامه اطلاعاتی که صرفا از طرف شما تایید و وارد می شود نگهداری میکند و  بدون آگاهی و تایید شما هیچ نوع داده ای ثبت نخواهد کرد.\n اطلاعات شما از قبیل نام و نام خانوادگی و شماره تماس صرفا در این برنامه استفاده خواهد شد و برای شخص ثبت کننده و اشخاصی که آگهی شما را می بینند قابل نمایش خواهد بود.</string>
+
+    <string name="farsiCharsWithNumber">وپءدذرزژطظگکمنتالبیسشچجحخهعغفقثصضآ ۱۲۳۴۵۶۷۸۹۰</string>
+    <string name="farsiChars">وپءدذرزژطظگکمنتالبیسشچجحخهعغفقثصضآ </string>
+    <string name="englishChars">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz </string>
+    <string name="englishCharsWithNumbers">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 </string>
+    <string name="englishCharsForEmail">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 .@</string>
+
+
+</resources>

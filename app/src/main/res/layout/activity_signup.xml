@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amin.sellrenthouse.launch.SignupActivity"
+    android:background="@layout/background_color" >
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp">
+
+            <ImageView
+                    android:src="@drawable/signup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:id="@+id/signupImageview"
+                    android:scaleType="fitXY"
+                   android:layout_marginBottom="20dp"
+                    android:contentDescription="@string/register"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:inputType="textPersonName"
+                    android:background="@layout/rounded_border_edittext"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:ems="10"
+                    android:maxLength="30"
+                    android:id="@+id/firstnameEditText"
+                    android:hint="@string/firstnameHint"
+                    android:fontFamily="@font/b_nazanin"
+                    android:layout_marginTop="10dp"
+                    android:digits="@string/farsiChars"
+                    android:textSize="19sp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:inputType="textPersonName"
+                    android:background="@layout/rounded_border_edittext"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:ems="10"
+                    android:maxLength="25"
+                    android:id="@+id/lastnameEditText"
+                    android:hint="@string/lastnameHint"
+                    android:fontFamily="@font/b_nazanin"
+                    android:layout_marginTop="10dp"
+                    android:digits="@string/farsiChars"
+                    android:textSize="19sp"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:inputType="phone"
+                    android:background="@layout/rounded_border_edittext"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:ems="10"
+                    android:maxLength="11"
+                    android:id="@+id/contactNumberEditText"
+                    android:hint="@string/contactnumberHint"
+
+                    android:fontFamily="@font/b_nazanin"
+                    android:layout_marginTop="10dp"
+                    android:textSize="19sp"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:inputType="textPersonName"
+                    android:background="@layout/rounded_border_edittext"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:ems="10"
+                    android:maxLength="12"
+                    android:id="@+id/usernameEditText"
+                    android:hint="@string/usernameHint"
+
+                    android:fontFamily="@font/b_nazanin"
+                    android:layout_marginTop="10dp"
+                    android:textSize="19sp"
+                    android:digits="@string/englishCharsWithNumbers"/>
+
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:inputType="textPassword"
+                    android:background="@layout/rounded_border_edittext"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:ems="10"
+                    android:maxLength="12"
+                    android:id="@+id/passwordEditText"
+                    android:hint="@string/passwordHint"
+                      android:fontFamily="@font/b_nazanin"
+                    android:layout_marginTop="10dp"
+                    android:textSize="19sp"
+                    android:digits="@string/englishCharsWithNumbers"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:inputType="textPassword"
+                    android:background="@layout/rounded_border_edittext"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:ems="10"
+                    android:maxLength="12"
+                    android:id="@+id/rePasswordEditText"
+                    android:hint="@string/repasswwordHint"
+                    android:fontFamily="@font/b_nazanin"
+                    android:layout_marginTop="10dp"
+                    android:textSize="19sp"
+                    android:digits="@string/englishCharsWithNumbers"/>
+
+            <Button
+                    android:text="@string/register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/registerButton"
+                    android:scaleType="fitXY"
+                    android:onClick="signUp"
+                    android:background="@layout/rounded_border_register_button"
+                    android:fontFamily="@font/b_nazanin"
+                    android:textSize="19sp"
+                    android:layout_marginTop="40dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

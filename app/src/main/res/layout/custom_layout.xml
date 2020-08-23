@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginTop="3dp">
+
+    <TextView
+            android:id="@+id/textViewItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:fontFamily="@font/b_nazanin"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/imgIcon"
+            android:textStyle="normal"
+            android:layout_toLeftOf="@+id/imgIcon"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"/>
+
+    <ImageView
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:id="@+id/imgIcon"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:src="@drawable/apartment"
+            android:contentDescription="propertyIcon"/>
+
+</RelativeLayout>
